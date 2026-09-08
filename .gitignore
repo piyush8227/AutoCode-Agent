@@ -1,2 +1,24 @@
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
 .env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AutoGen / execution workspace
+temp/
+work_dir/
+*.log
