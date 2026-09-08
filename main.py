@@ -44,7 +44,7 @@ async def run_team(docker, team, task):
 async def main():
     team, docker = await get_team_and_docker()
     task = """Give code for prime number"""
-    await run_team(task, team, docker)
+    await run_team(docker, team, task)
 
 if __name__ == "__main__":
     asyncio.run(main())
